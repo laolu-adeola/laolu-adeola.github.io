@@ -1,102 +1,297 @@
-<!-- <!DOCTYPE html> 
-<html>
-<head>
-  
-  <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-</head>
-<body>
-  <div id="wrapper">
-    <h1>Leke Adeola</h1>
-    <p>
-      <img src="https://pbs.twimg.com/profile_images/3776730548/549b57b410cf9211265e81c6f59141f2.jpeg">
-    </p>
-    <h2>Student</h2>
-    <h3>Evanston, IL</h3>
-    <div>
-      <h4>I really like the internet, talk to me</h4>
-      <h4>Also, Walter is a big mentor</h4>
-      <ul>
-        <li><a href="mailto:walter@walterwhite.com">Email</a></li>
-        <li><a href="http://twitter.com/walterwhite">Twitter</a></li>
-        <li><a href="http://facebook.com/walterwhite">Facebook</a></li>
-      </ul>
-    </div>
-    <div>
-      <h4>Summary</h4>
-      <p>
-        
-      </p>
-    </div>
-    <div>
-      <h4>Experience</h4>
-      <div>
-        <h5></h5>
-        <p></p>
-      </div>
-      <div>
-        <h5>Chemistry Teacher, J.P. Wynne High School</h5>
-        <p>J.P. Wynne High School is a public high school located in Albuquerque, New Mexico. Walter was well-liked by his many students.</p>
-      </div>
-    </div>
-    <div>
-      <h4>Skills</h4>
-      <ul>
-        <li>Chemistry</li>
-        <li>Teaching</li>
-      </ul>
-    </div>
-    <div>
-      <h4>Hobbies</h4>
-      <ul>
-        <li>Cooking</li>
-      </ul>
-    </div>
-  </div>
-</body>
-</html>
--->
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Walter's Understudy, Student</title>
-    <link type="text/css" rel="stylesheet" href="style.css"/>
-    <title></title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LAOLU'S</title>
+    <!-- Bootstrap and jQuery -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- My own styles -->
+    <link rel="stylesheet" href="stylesheets/style.css">
+
+    <!-- Page Starts Here -->
   </head>
   <body>
-    <div id="header">
-      <p id="name">Leke Ade-O</p>
-      <a href="mailto:you@yourdomain.com"><p id="email">you@yourdomain.com</p></a>
-      <p>
-      <img src="https://pbs.twimg.com/profile_images/3776730548/549b57b410cf9211265e81c6f59141f2.jpeg">
-    </p>
-    </div>
-    <div class="left"></div>
-    <div class="right">
-      <h4>Summary</h4>
-        <p>
-          Walter studied at the California Institute of Technology, but I study at Kellogg. He proved himself a brilliant chemist with a specialty in X-ray crystallography. I'm adept at other things. In 1985, Walt's groundbreaking research regarding photon radiography contributed to a project that was awarded the Nobel Prize in Chemistry. In 1985 my dad was mad at the fact that he was about to have a thrid kid, I am the 5th! Following his education, Walter went on to co-found Gray Matter Technologies with his friend, Elliott Schwartz. My education is ongoing, and I want to take over A1A Car Wash.
-        </p>
-      <h4>Experience</h4>
-      <p>Owner-In-The-Making, A1A Car Wash</p>
-      <ul>
-        <p>"You've Tried the Rest – Now Try the Best™. And don't forget to Have an A1 Day!"</p>
-        <li>Wrote third-party CSS and HTML</li>
-      </ul>
-      <h4>Skills</h4>
-      <p>Languages: C++, MATLAB, Mathematica, HTML/CSS</p>
-      <p>Frameworks: Merger, Marketing, Mergers, Growth</p>
-      <h4>Education</h4>
-      <p>BS, Strategy, My University</p>
-      <ul>
-        <li>Award for Best Underdog Win</li>
-        <li>GPA: It don't matter, we're dealers baybay</li>
-      </ul>
-    </div>
-    <div id="footer">
-      <p>123 Ball St, Heavanston, Killinois 12345-6789 | Tel: (555) 555-5555</p>
+    <div class="container">
+      <nav class="navbar navbar-default" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Laolu Adeola</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li>
+              <a href="sample.html">
+                <i class="glyphicon glyphicon-tower"></i>
+                About Me
+              </a>
+            </li>
+            <li>
+              <a href="#" aria-expanded="false">
+                <i class="glyphicon glyphicon-fire"></i>
+                 Things I've Done
+              </a>
+            </li>
+            <li>
+              <a href="#" aria-expanded="false">
+                <i class="glyphicon glyphicon-road"></i>
+                 Contact Me
+              </a>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="http://www.calm.com/">
+                <i class="glyphicon glyphicon-cloud"></i>
+                Ahhh!
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+  </div>
+
+        <div class="jumbotron">
+          <div class="container">
+            <div class="col-md-offset-3 col-md-6">
+              <h1>My name is Laolu</h1>
+              <h4><i>"You don't learn to walk by following rules. You learn by doing, and by falling over" </h4>
+              <h4><b>-Sir Richard Branson</b></i></h4>
+              
+            </div>
+          </div>
+        </div>
+
+    <div class="container">
+      <div class="container">
+        <h1 class="title">
+          My Story Till Now
+        </h1>
+
+        <div class="row">
+          <div class="col-md-2 text-left">
+            <p><img src=""></p>
+           
+          </div>
+          <div class="col-md-6 summary">
+            <h4>The College Years</h4>
+            <p>
+              Bright Eyed, Soaking the world in <br>
+              Taking all the classes, and adding more majors <br>
+              Student organizing the hell out of things <br>
+              And failing at business ventures because we know nothing <br>
+              The true trick here was learning!
+          </p>
+          <h4>Recession's Over Baby...<i>kinda</i></h4>
+            <p>
+              From Job to Job to Job. <br>
+              Working For the Man <br>
+              Tryna get that Paper <br>
+              Maybe we'll try to help a kid or two on the way <br>
+              Dust up some of that french, shine up the dancing shoes <br>
+              Never forget to keep learning though, keep that mind churning!
+          </p>
+          <h4>So you Want to be a Business Man</h4>
+            <p>
+              About learning new things <br>
+              Bring some bright minds together <br>
+              Let's see what we can get <br>
+              Out of this, we'll feed the beast <br>
+              Because that's the only way to become the beast <br>
+              Only way to turn the prince!
+          </p>
+        </div>
+        <div class="col-md-4 actors">
+          <h4>Illinois Institute of Technology, 2006 - 2011</h4>
+          <ul class="list-unstyled">
+            <li>2 x B.Sc. Mechanical & Aerospace Engineering</li>
+            <li>Minors: Business Admin & Entrepreneurship</li>
+            <li>Finance Board Chair of the Student Government</li>
+            <li>Associate Mgr with IIT Office of Sustainability</li>
+            <li>Marketing, and Franchise Ownership</li>
+          </ul>
+
+          <h4>Navistar Inc, 20011 - 2015</h4>
+          <ul class="list-unstyled">
+            <li>Aerodynamics Integration Engineer</li>
+            <li>Certification & Compliance Engineer</li>
+            <li>Minds Matter Mentor</li>
+            <li>Boeing Scholar's Academy Mentor</li>
+            <li>Salsa extraodinaire </li>
+            <li>Improv dabbler, & French sprinkles!</li>
+          </ul>
+
+          <h4>Kellogg School of Mgmt, 20015 - 2016</h4>
+          <ul class="list-unstyled">
+            <li>Business and People</li>
+            <li>Kellogg Cares</li>
+            <li>Hard Networking</li>
+            <li>Job Searching</li>
+            <li>Extensive Travel</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-9 col-md-offset-2">
+          
+        </div>
+      </div>
+
+      <div class="container">
+        <h1 class="title">
+          What I can do
+        </h1>
+
+        <div class="row">
+          <div class="col-md-2 text-center">
+            <p><img src="images/poster.jpg"></p>
+           
+          </div>
+            <i>"Failure allows you to learn. Success means progress. The only wrong is in staying idle!"</i>
+                        </p>
+
+                        <span class="divider center"></span>
+                    </div>
+                    <!-- //.col-md-8 -->
+                </div>
+                <!-- //.row -->
+            
+                <!-- SERVICES START -->
+                <div class="services">
+                    <div class="row">
+                        <div class="col-sm-4 col-md-4 item top dark-bg">
+                            <div class="inner-content">
+                                <i class="icon-King colored-text"></i>
+
+                                <h4 class="uppercase animated fadeInUp" style="opacity: 1;">Marketing</h4>
+
+                                <p class="text-grey">
+                                    Learning market structures and interactions to better figure out strategy for consumers, customers, and competition
+                                </p>
+                            </div>
+                            <!-- //.inner-content -->
+                        </div>
+                        <!-- //.item -->
+
+                        <div class="col-sm-4 col-md-4 item top">
+                            <div class="inner-content">
+                                <i class="icon-Monitor-phone colored-text"></i>
+
+                                <h4 class="uppercase animated fadeInUp" style="opacity: 1;">Design</h4>
+
+                                <p class="text-grey">
+                                    Working within parameters to create product with a form to follow its function
+                                </p>
+                            </div>
+                            <!-- //.inner-content -->
+                        </div>
+                        <!-- //.item -->
+
+                        <div class="col-sm-4 col-md-4 item top dark-bg">
+                            <div class="inner-content">
+                                <i class=" icon-Filter-2 colored-text"></i>
+
+                                <h4 class="uppercase animated fadeInUp" style="opacity: 1;">Networking</h4>
+
+                                <p class="text-grey">
+                                    Access to a broad range of networks with diverse interests and background that can be leveraged for almost anything
+                                </p>
+                            </div>
+                            <!-- //.inner-content -->
+                        </div>
+                        <!-- //.item -->
+                    </div>
+                    <!-- //.row -->
+
+                    <div class="row">
+                        <div class="col-sm-4 col-md-4 item">
+                            <div class="inner-content">
+                                <i class="icon-Optimization colored-text"></i>
+
+                                <h4 class="uppercase animated fadeInUp" style="opacity: 1;">Process Improvement</h4>
+
+                                <p class="text-grey">
+                                    Looking for iterative steps and standardizing them for improved efficiency without completely eliminating opportunities for improvement 
+                                </p>
+                            </div>
+                            <!-- //.inner-content -->
+                        </div>
+                        <!-- //.item -->
+
+                        <div class="col-sm-4 col-md-4 item dark-bg">
+                            <div class="inner-content">
+                                <i class="icon-Business-ManWoman colored-text"></i>
+
+                                <h4 class="uppercase animated fadeInUp" style="opacity: 1;">Creativity</h4>
+
+                                <p class="text-grey">
+                                    No reason to stay withing any known bounds when stepping outside is always way more exciting and fulfilling even though it may be a little scary!
+                                </p>
+                            </div>
+                            <!-- //.inner-content -->
+                        </div>
+                        <!-- //.item -->
+
+                        <div class="col-sm-4 col-md-4 item">
+                            <div class="inner-content">
+                                <i class="icon-Check colored-text"></i>
+
+                                <h4 class="uppercase animated fadeInUp" style="opacity: 1;">Product Management</h4>
+
+                                <p class="text-grey">
+                                    Process for prioritizing features to have maximal impact. Democratizing the process, getting customer feedback loops and tracking velocity of projects.
+                                </p>
+                            </div>
+                            <!-- //.inner-content -->
+                        </div>
+                        <!-- //.item -->
+                    </div>
+                    <!-- //.row -->
+                </div>
+                <!-- //SERVICES END -->
+            </div>
+      
+
+      <h1 class="title">
+          Get in touch with me
+        </h1>
+
+        <div class="row">
+          <div class="col-md-2 text-center">
+            <p><img src="images/poster.jpg"></p>
+           
+          </div>
+            <i>"Have any questions? Give us a call or send us an email"</i>
+                        </p>
+
+                      <hr class="primary">
+                    
+                  </div>
+                  <div class="col-lg-4 col-lg-offset-2 text-center">
+                      <i class="fa fa-phone fa-3x wow bounceIn" style="visibility: visible; animation-name: bounceIn;"></i>
+                      <p>+1.312.929.7565</p>
+                  </div>
+                  <div class="col-lg-4 text-center">
+                      <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;"></i>
+                      <p><a href="oadeola2016@kellogg.northwestern.edu">oadeola2016@kellogg.northwestern.edu</a></p>
+                  </div>
+              </div>
+          </div>
+      </section>
     </div>
   </body>
 </html>
+
